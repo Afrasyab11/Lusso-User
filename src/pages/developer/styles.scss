@@ -1,0 +1,54 @@
+.exploreCard {
+    display: flex;
+    flex-direction: column;
+    background: #262242;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 12px;
+    width: 300px;
+    cursor: pointer;
+  }
+
+  .chip {
+    background: #FFFFFF1F;
+    border-radius: 32px;
+    color:#FFF;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: small;
+  }
+  .cardName {
+    font-family: 'Inter';
+    color:#FFF;
+    font-weight: 600;
+    font-size: large;
+  }
+  .rating {
+    font-family: 'Inter';
+    color:#FFF;
+    font-weight: 500;
+    font-size: large;
+  }
+
+  .card-desc {
+    color: #B1ADCD;
+    font-size: medium;
+    font-weight: 300;
+  }
+
+  .trending-container {
+    background: linear-gradient(99.03deg, rgba(53, 27, 137, 0.2) 0%, rgba(79, 35, 114, 0.2) 100%);
+    padding: 24px;
+    border-radius: 8px;
+  }
+
+  .trending-card {
+    background: #FFFFFF0F;
+    border: 1px solid #FFFFFF0A;
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+  }

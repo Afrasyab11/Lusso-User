@@ -1,0 +1,26 @@
+@media screen and (max-width: 800px) {
+  .side-nav-container {
+    position: absolute;
+    height: 100vh;
+    height: 100svh;
+    overflow: auto;
+    transform: translateX(-100%);
+    z-index: 9999;
+    transition: 0.3s ease;
+  }
+
+  .side-nav-container.active {
+    transform: translateX(0);
+  }
+}
+
+.sidebarExplore .category-title {
+  font-size: 1rem;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.sidenav-bg-shadow {
+  background: linear-gradient(180deg, #18142d 0%, #2e246c 100%);
+  box-shadow: 13.5px 3px 26.25px 0px rgba(0, 0, 0, 0.02);
+}

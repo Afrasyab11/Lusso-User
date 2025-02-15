@@ -1,0 +1,38 @@
+.custom-input {
+    background-color: rgba(10, 10, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    padding: 12px 16px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: #d1d5db;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .custom-input::placeholder {
+    color: #d1d5db;
+  }
+  
+  .custom-input:focus {
+    border-color: #9ca3af;
+  }
+  
+  .input-wrapper {
+    background-color: rgba(10, 10, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    padding: 12px 16px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: #d1d5db;
+  }
+  
+  .input-wrapper .StripeElement {
+    color: #d1d5db;
+    width: 100%;
+  }
+  
+  .input-wrapper .StripeElement::placeholder {
+    color: #d1d5db;
+  }
+  

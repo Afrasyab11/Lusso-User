@@ -1,0 +1,133 @@
+.product-analytics-wrapper {
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    scrollbar-width: none;
+
+}
+
+.product-analytics-header {
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    padding: 0 0 8px 16px;
+}
+
+.analytics-top-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    min-height: 70px;
+}
+
+.analytics-main-content-wrapper {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    min-width: fit-content;
+    flex-wrap: wrap;
+}
+
+.analytics-main-col-1 {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.analytics-main-col-1 img{
+    min-width: 60px;
+}
+
+.analytics-main-col-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.analytics-main-col-2 .product-title-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.analytics-main-col-2 .product-title-bar .title{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.analytics-main-content {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.analytics-separator {
+    width: 1px;
+    background: rgba(117, 107, 187, 1);
+}
+
+.analytics-main-common {
+
+}
+
+
+
+.analytics-main-common .label {
+    color: rgba(193, 193, 193, 1);
+    margin-top: 8px;
+}
+
+.analytics-main-common .rating-container {
+    display: flex;
+    color: rgba(255, 172, 112, 1);
+    margin-top: 8px;
+    gap: 8px;
+}
+
+.analytics-main-common .rating-container span{
+    display: flex;
+    gap: 1px;
+}
+
+.analytics-main-common .rating-container span img{
+    width: 16px;
+}
+
+.analytics-main-left {
+    flex: 2;
+}
+
+.analytics-main-right {
+    flex: 3;
+    margin-top: 8px;
+}
+
+.analytics-data-table {
+    margin-top: 8px;
+}
+
+.analytics-data-table td{
+    padding: 4px 8px 4px 0;
+    text-align: start;
+    font-size: 14px;
+}
+
+.analytics-data-table .data-label {
+    color: rgba(193, 193, 193, 1);
+}
+
+.analytics-performance-wrapper {
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.performance-left img{
+    min-width: 60px;
+}

@@ -1,0 +1,29 @@
+.custom-editor .ql-container {
+    border: 2px solid #5721B9; /* Border size and color */
+    border-radius: 0 0 16px 16px; /* Border radius */
+    height: 100px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    color: white;
+}
+
+.custom-editor .ql-toolbar {
+    border: 2px solid #5721B9; /* Border size and color */
+    border-radius: 16px 16px 0 0; /* Match the top corners with the editor */
+    margin-bottom: -3px; /* Prevent gap between toolbar and editor */
+    color: white; /* Set default color to white */
+}
+
+.custom-editor .ql-toolbar .ql-formats button,
+.custom-editor .ql-toolbar .ql-formats button svg {
+    color: white !important; /* Set toolbar icon color to white */
+    fill: white !important;  /* Ensure SVG icons are filled with white */
+}
+
+.custom-editor .ql-toolbar .ql-picker {
+    color: white !important; /* Set dropdown text color to white */
+}
+
+.custom-editor .ql-toolbar .ql-picker-options {
+    background-color: #040404; /* Set dropdown background to match editor */
+    border: 1px solid #5721B9; /* Optional: border color for the dropdown */
+}

@@ -1,0 +1,84 @@
+.grid {
+  display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  // padding: 20px;
+}
+
+.stat-box {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.platform {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.count {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.trend {
+  font-size: 1.5rem;
+}
+
+.trend.up {
+  color: #00ff00;
+}
+
+.trend.down {
+  color: #ff0000;
+}
+
+.increase {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.custom-insta-gradient-bg {
+  background: linear-gradient(
+    135.29deg,
+    #ce257e 37.01%,
+    #e82250 47.52%,
+    #f2203e 52.8%,
+    #f2203e 65.79%,
+    #f32d40 67.35%,
+    #f86c48 75.25%,
+    #fb994e 81.93%,
+    #fdb652 87.06%,
+    #fec053 90.03%
+  );
+}
+
+.social-tile-bg {
+  background: linear-gradient(
+    125.12deg,
+    #2d246c 6.52%,
+    #1a1442 34.28%,
+    #171232 53.59%,
+    #25204a 78.95%
+  );
+}
+
+.stats-section-bg {
+  background: linear-gradient(
+    125.12deg,
+    #2d246c 6.52%,
+    #1a1442 34.28%,
+    #171232 53.59%,
+    #25204a 78.95%
+  );
+}
+  
+  
+
+

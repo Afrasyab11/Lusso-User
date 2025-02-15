@@ -1,0 +1,268 @@
+.login-bg-clip-txt {
+  background: linear-gradient(
+    97deg,
+    #d116fe 10.88%,
+    #d3b2ff 27.48%,
+    #fff 48.48%,
+    #adc9ff 67.58%,
+    #62bcef 84.2%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.join-btn {
+  border: 1px solid #222e98;
+  transition: all 0.3s linear;
+  background: linear-gradient(90deg, #b345b1 0%, #222e98 100%);
+
+  &:hover {
+    background: linear-gradient(0deg, #b345b1 0%, #222e98 100%);
+  }
+}
+
+// .account-login-bg{
+//   background: url(../../assets/images/icons/account-login-bg.svg) no-repeat center top #010101;
+//   background-size: 100% auto;
+// }
+.account-login-bg {
+  background: linear-gradient(to bottom, #7870f7, transparent) border-box;
+}
+
+.account-login-bg-inner {
+  background: url(../../assets/images/icons/account-login-bg.svg) no-repeat
+    center top #010101;
+  background-size: 100% auto;
+}
+
+.ac-frm-input-user {
+  background: url(../../assets/images/icons/user-input.svg) no-repeat center
+    left 20px #3f3657 !important;
+  padding-left: 60px;
+}
+
+.ac-frm-input-pwd {
+  background: url(../../assets/images/icons/lock.svg) no-repeat center left 20px
+    #3f3657 !important;
+  padding-left: 60px;
+}
+
+.ac-frm-input-email {
+  background: url(../../assets/images/icons/email-white-fill.svg) no-repeat
+    center left 20px #3f3657 !important;
+  padding-left: 60px;
+}
+
+.ac-login-btn-fill {
+  background: linear-gradient(180deg, #a777e1 0%, #1f17c1 100%);
+
+  &:hover {
+    background: linear-gradient(80deg, #a777e1 0%, #1f17c1 100%);
+  }
+}
+
+.ac-login-btn-outline {
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.ac-login-btn,
+.ac-signup-btn {
+  background: linear-gradient(
+    178deg,
+    #4300bd 6.78%,
+    #792fff 46.97%,
+    #ff77b0 98.12%
+  ) !important;
+
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      #4b03ce 0%,
+      #5899ff 52.5%,
+      #00f0fb 100%
+    ) !important;
+  }
+}
+
+.login-banner {
+  background-image: url('../../assets/images/Loginbackground.svg');
+  background-size: cover;
+  /* Cover the entire background */
+  background-position: center;
+  /* Center the background */
+  width: 100%;
+  background-position: top;
+}
+
+.login-container-right {
+  min-height: 100vh;
+  width: 100% !important;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    140deg,
+    rgba(21.32, 21.32, 59.5, 0.7) 0%,
+    rgba(22.64, 20.81, 63.72, 0.7) 20%,
+    rgba(27.32, 19, 78.63, 0.7) 93%
+  );
+  backdrop-filter: blur(20px);
+  padding: 30px 24px;
+  gap: 20px;
+}
+
+.errorField {
+  color: #f04438;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #4b03ce;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.loader-sm {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #4b03ce;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 1s linear infinite;
+}
+.loader-md {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #4b03ce;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.auth-create-acc-title p {
+  max-width: 450px;
+}
+
+.auth-form-container {
+  width: 100%;
+}
+
+.auth-input-container {
+  width: 98%;
+  gap: 24px;
+  margin: auto;
+}
+
+.auth-input-container > div {
+  flex: 1;
+}
+
+.ac-google-login-btn {
+  white-space: nowrap;
+  padding: 10px 24px;
+  width: min(350px, 90%);
+}
+
+.ac-google-login-btn svg {
+  width: 36px !important;
+}
+
+.auth-logo-container img {
+  width: min(300px, 90%);
+}
+
+.creator-btn {
+  height: auto !important;
+  padding: 10px 24px !important;
+}
+.AgeGroup select{
+  background-color: #1d1447 !important;
+}
+@media screen and (max-width: 767px) {
+  .auth-top-container {
+    flex-direction: column;
+  }
+
+  .auth-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .creator-btn {
+    margin-top: 16px;
+  }
+
+  .auth-create-acc-title {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .auth-create-acc-title p {
+    text-align: center;
+  }
+
+  .auth-form-container {
+    width: 100%;
+  }
+
+  .auth-input-container {
+    flex-direction: column;
+  }
+
+  .auth-input-container > div {
+    flex: 1;
+    width: 100% !important;
+  }
+
+  .login-container-right {
+    padding: 32px 16px;
+  }
+
+  .ac-login-btn:hover,
+.ac-signup-btn:hover 
+{background: linear-gradient(
+    178deg,
+    #4300bd 6.78%,
+    #792fff 46.97%,
+    #ff77b0 98.12%
+  ) !important;
+  
+}
+.ac-login-btn:active,
+.ac-signup-btn:active {
+  background: linear-gradient(
+    90deg,
+    #4b03ce 0%,
+    #5899ff 52.5%,
+    #00f0fb 100%
+  ) !important;
+}
+
+}
+
+
+@media screen and (max-width: 1080px) {
+  .SignUpForm.auth-form-container .auth-input-container {
+    flex-direction: column;
+  }
+  .SignUpForm.auth-form-container .auth-input-container > div {
+    flex: 1 1;
+    width: 100% !important;
+}
+
+}
+

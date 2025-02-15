@@ -1,0 +1,66 @@
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;;
+}
+
+.mobile_menu {
+    position: inherit;
+    width: 350px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.mobile_menu-content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 20px;
+    transition: left 0.3s ease;
+    overflow: hidden;
+}
+
+.mobile_menu-content.active {
+    left: 0;
+}
+
+.mobile_menu-content h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.mobile_menu-content ul {
+    list-style-type: none;
+    padding: 15px;
+    overflow: hidden!important;
+    min-height: 0;
+    /* height: 90%; */
+    border-radius: 0;
+}
+
+.mobile_menu-content ul li {
+    padding: 5px 1.75rem 5px 0.25rem;
+    /* border-bottom: 1px solid #ddd; */
+    cursor: pointer;
+}
+
+.notifications-list {
+    position: absolute; /* Allows it to take full-screen position */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /* Background color for clarity */
+    z-index: 9999; /* Ensure it appears above other elements */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    display: flex; /* Center content if necessary */
+    flex-direction: column;
+}
+
+  

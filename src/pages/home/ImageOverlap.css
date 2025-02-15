@@ -1,0 +1,30 @@
+.image-container {
+    position: relative;
+    width: max-content; /* Adjust based on your container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1, .image2 {
+    width: 248px !important; /* Or any specific width you want */
+    height: 312px !important; /* Maintain aspect ratio */
+}
+
+.image2 {
+    position: absolute;
+    top: 0;
+    left: 55%; /* Adjust this value to control the overlap */
+}
+
+.image2 .travel-buddy-card {
+    position: relative;
+    /* width: calc(100% - 320px); */
+    /* max-width: 400px; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 248px; 
+    height: 312px;
+    padding: 6px;
+    /* border: 2px #FFF solid; */
+}

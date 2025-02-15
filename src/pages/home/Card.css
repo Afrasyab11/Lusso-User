@@ -1,0 +1,50 @@
+.travel-buddy-card {
+    position: relative;
+    /* width: calc(100% - 320px); */
+    /* max-width: 400px; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 370px;
+    height: 305px;
+    padding: 6px;
+    /* border: 2px #FFF solid; */
+  }
+  
+  .card-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;        /* Prevents text from wrapping */
+    overflow: hidden;           /* Ensures the overflowing text is clipped */
+    text-overflow: ellipsis;
+  }
+  
+  .card-subtitle {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    white-space: nowrap;        /* Prevents text from wrapping */
+    overflow: hidden;           /* Ensures the overflowing text is clipped */
+    text-overflow: ellipsis;
+  }
+  

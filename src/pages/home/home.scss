@@ -1,0 +1,194 @@
+.home-banner-bg {
+  background: url(../../assets/images/bannerImage.png);
+  background-size: cover;
+}
+.bg-blurred-new {
+  background: url(../../assets/images/home/bg-blurred.png) no-repeat center
+    center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.bg-blurred-new-no-height {
+  background: url(../../assets/images/home/bg-blurred.png) no-repeat center
+    center fixed;
+  background-size: cover;
+  width: 100%;
+}
+.explore-cat-banner {
+  // background: url(../../assets/images/explore/category/games/banner.png) no-repeat center
+  //   center;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+}
+.signInbtn {
+  border-radius: 50px;
+  border: 2px solid var(--accent1, #7d3cf3);
+}
+.signInbtn:hover {
+  border-radius: 50px;
+  border: 2px solid var(--accent4, #5b97ff);
+}
+.getStartedBtn,
+.askLussoBtn {
+  border-radius: 50px;
+  background: var(
+    --gradient1A,
+    linear-gradient(178deg, #4300bd 6.78%, #792fff 46.97%, #ff77b0 98.12%)
+  );
+}
+.getStartedBtn:hover,
+.askLussoBtn:hover {
+  border-radius: 50px;
+  background: var(
+    --gradient9,
+    linear-gradient(90deg, #4b03ce 0%, #5899ff 52.5%, #00f0fb 100%)
+  );
+}
+.lussoBtn:hover {
+  background: var(
+    --gradient9,
+    linear-gradient(90deg, #4b03ce 0%, #5899ff 52.5%, #00f0fb 100%)
+  );
+}
+.exp-new {
+  border-radius: 50px;
+  background: linear-gradient(
+    87deg,
+    #4300bd 3.45%,
+    #792fff 38.03%,
+    #ff77b0 98.08%
+  );
+}
+.card-feature {
+  border: 1px #000;
+  background: linear-gradient(134deg, #000 6.97%, #2d246c 94.85%);
+}
+.ai-tools-banner {
+  // background: url(../../assets/images/icons/ai-tools-bg.png) no-repeat center
+  //   top;
+  background: linear-gradient(0deg, black 15%, rgba(0, 0, 0, 0) 90%);
+  background-size: cover;
+}
+.pdct-hunt-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.ask-lusso-txt {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ai-help-bg {
+  background: linear-gradient(
+    123deg,
+    rgba(87, 4, 236, 0.5) 22.35%,
+    rgba(203, 66, 251, 0.1) 107.61%
+  );
+}
+.ai-help-circle {
+  background: url(../../assets/images/icons/ai-help-start.svg) no-repeat center
+    #4800cb;
+}
+.solution-list {
+  &-item:last-of-type {
+    .soln-v-line {
+      display: none;
+    }
+  }
+}
+.faq-accordian:nth-of-type(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+.community-slider-box {
+  @apply float-left p-10 rounded-3xl;
+  background: url(../../assets/images/icons/quotes-icon.svg) no-repeat right
+    32px top 32px rgba(255, 255, 255, 0.1);
+}
+.explorebtn {
+  border-radius: 50px;
+  background: var(
+    --gradient1A,
+    linear-gradient(178deg, #4300bd 6.78%, #792fff 46.97%, #ff77b0 98.12%)
+  );
+}
+.explorebtn:hover {
+  border-radius: 50px;
+  background: var(
+    --gradient9,
+    linear-gradient(90deg, #4b03ce 0%, #5899ff 52.5%, #00f0fb 100%)
+  );
+}
+.trending-product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trending-product-row {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  gap: 10px;
+}
+
+.trending-product-item {
+  flex: 1;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.trending-product-web {
+  max-width: 305px;
+  max-height: 280px;
+}
+
+.trending-product-mobile {
+  max-width: 150px;
+  max-height: 240px;
+  padding-left: 0;
+}
+
+.askLussoMobButton {
+  background: linear-gradient(180deg, #7d22e8 0%, #11061f 100%);
+  width: 28.33px;
+  height: 28.33px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.askLussoMobButton svg {
+  width: 18px;
+  margin-top: 1px;
+  margin-left: 7px;
+}
+
+@media (max-width: 768px) {
+  // Tablet and smaller devices
+  .askLussoMobButton {
+    display: none;
+  }
+
+  .askLussoMobButton svg {
+    display: none;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .customcard {
+    width: 255px;
+    height: 250px;
+  }
+}
+@media (min-width: 1400px) {
+  .customcard {
+    width: 305px;
+    height: 280px;
+  }
+}
+.merginminus {
+  margin-left: -4px;
+}

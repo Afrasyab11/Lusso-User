@@ -1,0 +1,37 @@
+.header-shadow {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sub-header-shadow {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.header-shadow-small {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.settings-container {
+    background: #231C49;
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 0px 0px 35px 0px #6C8CFF80;
+    border-radius: 16px;
+    padding: 24px 12px;
+}
+
+.settings-frm-input {
+    @apply w-full text-base text-white placeholder:text-white/50 focus:outline-none border border-transparent focus:border-white/20 font-normal bg-[#3F3657] px-6 py-5;
+}
+
+
+@media screen and (max-width:800px) {
+    .settings-container {
+        flex-direction: column !important;
+        row-gap: 32px;
+    }
+}

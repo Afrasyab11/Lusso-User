@@ -1,0 +1,45 @@
+/* Mobile view adjustments */
+@media (max-width: 640px) {
+    .responsive-banner {
+      justify-content: center; /* Center content */
+      align-items: center; /* Center vertically */
+      padding-bottom: 4rem; /* Padding at the bottom */
+      // height: 50vh;
+    }
+  
+    .responsive-banner h1 {
+      font-size: 1.25rem; /* Smaller font size for the title */
+      margin-bottom: 0.5rem; /* Reduced bottom margin */
+    }
+  
+    .responsive-banner h2 {
+      font-size: 1.25rem; /* Smaller font size for the subtitle */
+      margin-bottom: 1rem; /* Reduced bottom margin */
+    }
+  
+    .responsive-banner p {
+      font-size: 1rem; /* Smaller font size for the paragraph */
+      margin-bottom: 0.5rem; /* Reduced bottom margin */
+      text-align: center; /* Center align text */
+    }
+  
+    .responsive-banner .relative {
+      margin-top: 18rem; /* Adjust top margin for spacing */
+    }
+  
+    .explore-button {
+      margin-top: 1.5rem; /* Adjust margin for the button */
+    }
+  
+    // svg {
+    //   margin-top: -1rem; /* Adjust margin for the SVG */
+    // }
+
+    
+  }
+
+
+  
+
+  
+  
